@@ -1,0 +1,79 @@
+#app {
+    width: 80vw;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: Lato,sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+
+    padding: 0 5px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+p {
+    font-size: 1em;
+}
+
+p,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h2, h1 {
+    padding: 0 10px;
+}
+
+i {
+    padding: 10px;
+}
+
+.standard-button {
+    min-width: 5vw;
+    margin: 5px;
+    padding: 10px 10px;
+
+    font-size: 1.0em;
+    text-align: center;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.more-info-button {
+    max-width: 20vw;
+    height: 2vh;
+    padding: 20px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 10px;
+
+    color: #2E2E2E;
+    background: linear-gradient(180deg,#FFE651 0,#FFA023);
+    transition: all .4s ease-in-out;
+
+    cursor: pointer;
+}
